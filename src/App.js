@@ -4,6 +4,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
+      <div className="Container">
       <h1>Weather App</h1>
       <footer>
         Coded by Viv and is{" "}
@@ -15,6 +16,7 @@ export default function App() {
           Open-sourced
         </a>
       </footer>
+      </div>
     </div>
   );
 }
